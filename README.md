@@ -1,2 +1,2 @@
-[![agunggumelar](https://circleci.com/gh/agunggumelar/GameDirectory.svg?style=svg)](https://circleci.com/gh/agunggumelar/GameDirectory)
+[![agunggumelar](https://circleci.com/gh/agunggumelar/GameDirectory.svg?style=shield)](https://circleci.com/gh/agunggumelar/GameDirectory)
 # GameDirectory
