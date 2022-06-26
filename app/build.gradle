@@ -23,7 +23,8 @@ android {
     }
 
     lintOptions {
-        abortOnError true
+        abortOnError false
+        checkReleaseBuilds false
     }
 
     buildTypes {
