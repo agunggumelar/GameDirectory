@@ -15,7 +15,7 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
-        abortOnError false
+        abortOnError true
     }
 
     buildTypes {
