@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.FavoriteFragment"
+    tools:ignore="Overdraw">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/iv_no_fav_games"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            app:tint="@color/red_500"
+            android:src="@drawable/ic_favorite"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/tv_no_fav_games"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty_favorite"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</FrameLayout>
