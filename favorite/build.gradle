@@ -14,9 +14,6 @@ android {
         minSdkVersion 22
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    lintOptions {
-        abortOnError false
-    }
 
     buildFeatures {
         viewBinding = true
