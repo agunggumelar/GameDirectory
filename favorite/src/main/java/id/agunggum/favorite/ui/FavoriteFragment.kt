@@ -64,11 +64,9 @@ class FavoriteFragment : Fragment() {
 
             favoriteViewModel.favoriteGames.observe(viewLifecycleOwner) { favoriteGames ->
                 if (favoriteGames.isEmpty()) {
-                    binding.ivNoFavGames.isVisible = true
                     binding.tvNoFavGames.isVisible = true
                     favoriteGameAdapter.setData(favoriteGames)
                 } else {
-                    binding.ivNoFavGames.isVisible = false
                     binding.tvNoFavGames.isVisible = false
                     favoriteGameAdapter.setData(favoriteGames)
                 }

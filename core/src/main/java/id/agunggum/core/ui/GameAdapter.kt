@@ -15,7 +15,6 @@ class GameAdapter : RecyclerView.Adapter<GameAdapter.ListViewHolder>() {
     private var listData = ArrayList<Game>()
     var onItemClick: ((Game) -> Unit)? = null
 
-    @SuppressLint("NotifyDataSetChanged")
     fun setData(newListData: List<Game>?) {
         if (newListData == null) return
         listData.clear()
